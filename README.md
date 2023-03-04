@@ -14,4 +14,5 @@ The original image is this:
 
 And it saves a file with the highlights like this:
 
-![image](https://user-images.githubusercontent.com/89719906/222868049-2123a5e1-0c50-4652-be42-c333b31e05ab.png)
+![image](https://user-images.githubusercontent.com/89719906/222868331-345ea970-70d7-4f7f-b8e7-19b323db3919.png)
+
