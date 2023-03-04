@@ -47,7 +47,7 @@ fs.readFile(jsonFile, 'utf8', (err, data) => {
                     element.boundingPoly.vertices[0].y
                 );
                 context.font = '14px Arial';
-                context.fillStyle = 'rgba(0, 66, 63, 1)';
+                context.fillStyle = 'rgba(0, 255, 0, 1)';
                 context.fillText(ArrayIndex, 
                     element.boundingPoly.vertices[0].x,
                     element.boundingPoly.vertices[0].y
@@ -59,6 +59,6 @@ fs.readFile(jsonFile, 'utf8', (err, data) => {
     });
     const buffer = canvas.toBuffer('image/png');
 
-    fs.writeFileSync('./files/test.png', buffer);
+    fs.writeFileSync('./files/Result.png', buffer);
     })
 });
