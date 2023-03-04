@@ -3,3 +3,15 @@ This code uses the node canvas package (https://www.npmjs.com/package/canvas) <b
 and the image size package (https://www.npmjs.com/package/image-size) <br />
 to highlight the word matches given in the resulting JSON from the Google Cloud OCR API (https://cloud.google.com/vision/docs/ocr) and also to numerate the matches so you can check its order.
 <br /><br />
+
+To quickstart just install the dependencies with 
+  npm install
+and then run it with
+  node canvas.js
+
+The original image is this:
+![image](https://user-images.githubusercontent.com/89719906/222868179-477d8ef8-71a0-49bb-be3f-7cc5cbf75de5.png)
+
+And it saves a file with the highlights like this:
+
+![image](https://user-images.githubusercontent.com/89719906/222868049-2123a5e1-0c50-4652-be42-c333b31e05ab.png)
