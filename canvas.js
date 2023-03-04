@@ -4,10 +4,10 @@ const fs = require('fs')
 const { createCanvas, loadImage } = require('canvas')
 const sizeOf = require('image-size');
 
-// Folder of Image which was processed by Google Cloud OCR
-const fileFolder = "C:/Users/<Username>/<Folder>/...";
+// Folder of Image (in this case it uses a local directory) which was processed by Google Cloud OCR
+const fileFolder = "./files/";
 // Name of the image file which was processed by Google Cloud OCR 
-const fileName = "ExampleFile.jpeg";
+const fileName = "ExampleFile.jpg";
 
 const jsonFile = './files/Example.json';
 fs.readFile(jsonFile, 'utf8', (err, data) => {
