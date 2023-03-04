@@ -1,0 +1,23 @@
+{
+  "name": "google-ocr-api-hightlight",
+  "version": "1.0.0",
+  "description": "This code uses the node canvas package (https://www.npmjs.com/package/canvas) <br />\r and the image size package (https://www.npmjs.com/package/image-size) <br />\r to highlight the word matches given in the resulting JSON from the Google Cloud OCR API (https://cloud.google.com/vision/docs/ocr) and also to numerate the matches so you can check its order.\r <br /><br />",
+  "main": "canvas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianGuzmanSan/google-ocr-API-hightlight.git"
+  },
+  "author": "Adrián Guzmán",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianGuzmanSan/google-ocr-API-hightlight/issues"
+  },
+  "homepage": "https://github.com/AdrianGuzmanSan/google-ocr-API-hightlight#readme",
+  "dependencies": {
+    "canvas": "^2.11.0",
+    "image-size": "^1.0.2"
+  }
+}
